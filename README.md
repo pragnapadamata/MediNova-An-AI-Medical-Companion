@@ -74,10 +74,9 @@ Use the Streamlit UI to upload images
 # Ask Medical Questions  
 Use the chatbot interface to query health-related topics  
 
-
 Set up secrets and environment variables
 
 Deploy and share your app!
 
 📬 Contact
-For queries or contributions, reach out to Pragna Padamata at pragnasrilalithapadamata@example.com
+For queries or contributions, reach out to Pragna Padamata at pragnasrilalithapadamata@gmail.com
