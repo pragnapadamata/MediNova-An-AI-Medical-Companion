@@ -1,108 +1,67 @@
-MediNova – AI-Powered Healthcare Platform
+# 🩺 MediNova – An AI-Powered Medical Companion
 
-Overview
-MediNova is an AI-powered healthcare platform that combines Computer Vision, OCR, multimodal fusion, and local LLM inference to deliver fast, accurate, and secure access to medicine information. It supports image-based medicine identification, fuzzy text search, and a Retrieval-Augmented Generation (RAG) chatbot for structured medical responses.
+## 📌 Overview
+MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to extract medicine names from prescriptions and provide intelligent, context-aware answers to health-related queries. It integrates a **retrieval-augmented generation (RAG)** pipeline for accurate responses and features a clean, interactive interface for users to explore medical information.
 
-Features
+## 🚀 Features
+- ✅ **OCR-Powered Prescription Reader** – Extracts medicine names from uploaded images
+- ✅ **NLP-Based Medical Q&A** – Answers user queries using a curated medical dataset
+- ✅ **Medicine Database Search** – Retrieves drug details from structured CSV and FAISS index
+- ✅ **RAG Pipeline Integration** – Combines retrieval and generation for accurate responses
+- ✅ **Secure Login System** – Basic authentication for user access
+- ✅ **Streamlit UI** – Lightweight, interactive web interface
 
-AI-driven medicine identification from images
+## 📸 Screenshots & Videos
+### **Home Page**
 
-OCR-based label extraction using Tesseract
+https://github.com/user-attachments/assets/medinova-homepage-screenshot
 
-Multimodal fusion with aleMixMiDa-v2
+### **Prescription Upload**
 
-Fast similarity search via Faiss
+https://github.com/user-attachments/assets/medinova-upload-screenshot
 
-Local LLM inference using Ollama (Mistral)
+### **Medicine Details**
 
-Fuzzy medicine name matching with RapidFuzz
+https://github.com/user-attachments/assets/medinova-medicine-screenshot
 
-RAG-based chatbot for structured medical Q&A
+### **Chatbot Interface**
+![image](https://github.com/user-attachments/assets/medinova-chatbot-screenshot)
 
-Gemini API fallback for general conversations
+## 🛠️ Tech Stack
+**Frontend:**
+- ✅ Streamlit – For the web-based UI
+- ✅ HTML/CSS – For layout and styling
+- ✅ Lottie.js – For animated visuals (optional)
 
-Privacy-first architecture with local inference
+**Backend & Computation:**
+- ✅ Python – Core programming language
+- ✅ Pandas – For data handling
+- ✅ FAISS – For fast similarity search
+- ✅ Pickle – For serialized data storage
 
-Modular Flask backend with clean API endpoints
+**AI & NLP:**
+- ✅ Tesseract OCR – For text extraction from images
+- ✅ Hugging Face Transformers – For question answering
+- ✅ Sentence Transformers – For semantic search
 
-Tech Stack Highlights
+**Storage & Data:**
+- ✅ CSV – Medicine database
+- ✅ FAISS Index – Vector search
+- ✅ .env – For secure API keys and environment variables
 
-Web Framework: Flask
+## 🔧 Setup & Installation
 
-AI & NLP: SentenceTransformer, Faiss, Ollama (Mistral), RapidFuzz
+### 📌 Prerequisites
+Ensure you have the following installed:
+- 🐍 Python 3.8+
+- 📦 pip (Python package manager)
+- 💻 Git (optional, for cloning)
+- 📂 Virtual Environment (recommended)
 
-OCR & Imaging: pytesseract, PIL
+### 🚀 Installation Steps
 
-Chat Fallback: Gemini API
+1️⃣ **Clone the Repository**
 
-Data: CSV-based medicine info index
-
-How It Works
-Medicine RAG System:
-CSV of medicine info → Full-text fusion → Embeddings → Faiss index
-User query → Embedding → Top-k retrieval → Ollama generates structured answer
-
-Fuzzy Search:
-User types medicine name → RapidFuzz finds closest match → Returns structured info (Uses, Side Effects, Composition)
-
-Image Upload:
-User uploads medicine image → OCR extracts text → Fuzzy match → Returns structured info
-
-Gemini Fallback:
-For greetings or casual chat → Gemini API generates friendly replies
-
-API Endpoints
-
-/ → Home page
-
-/chatbot → Chatbot UI
-
-/upload_image → Upload medicine image → OCR + fuzzy match
-
-/send_message → Main chat route → RAG or Gemini fallback
-
-Setup & Installation
-
-Prerequisites
-
-Python 3.8+
-
-pip
-
-Git (optional)
-
-Virtual Environment (recommended)
-
-API keys for Gemini (if used)
-
-Installation
-Clone the repository:
-git clone https://github.com/your-username/MediNova.git
-
-cd MediNova
-
-Create virtual environment:
-python -m venv venv
-
-Activate virtual environment (Windows):
-venv\Scripts\activate
-
-Activate virtual environment (Mac/Linux):
-source venv/bin/activate
-
-Install dependencies:
-pip install -r requirements.txt
-
-Secrets
-Add your API keys and credentials to secrets.toml or .env as needed
-
-Running the App
-python app.py
-
-Usage
-Medicine Scanner: POST /upload_image
-Chatbot: POST /send_message
-Fuzzy Search: GET /chatbot?medicine=paracetamol
-
-Contact
-For questions, collaborations, or contributions, reach out to Pragna Padamata at your-email@example.com
+```bash
+git clone https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion.git
+cd MediNova-An-AI-Medical-Companion
