@@ -1,0 +1,7 @@
+# Ignore virtual environments and large files
+rag-env/
+.env
+*.pkl
+*.faiss
+__pycache__/
+*.pyc
