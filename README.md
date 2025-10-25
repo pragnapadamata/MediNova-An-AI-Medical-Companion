@@ -11,25 +11,9 @@ MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to
 - ✅ **Secure Login System** – Basic authentication for user access
 - ✅ **Streamlit UI** – Lightweight, interactive web interface
 
-## 📸 Screenshots & Videos
-### Upload Image Demo
-https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion/blob/main/assets/UploadImage.gif
-
 ### Demo Video
 [Watch Demo Video](assets/UploadImage.gif)
 
-
-
-### **Prescription Upload**
-
-https://github.com/user-attachments/assets/medinova-upload-screenshot
-
-### **Medicine Details**
-
-https://github.com/user-attachments/assets/medinova-medicine-screenshot
-
-### **Chatbot Interface**
-![image](https://github.com/user-attachments/assets/medinova-chatbot-screenshot)
 
 ## 🛠️ Tech Stack
 **Frontend:**
@@ -89,20 +73,7 @@ python login.py
 Use the Streamlit UI to upload images  
 # Ask Medical Questions  
 Use the chatbot interface to query health-related topics  
-🎯 Additional Notes
-To deactivate the virtual environment, run:
 
-bash
-deactivate  
-If you face missing dependencies, manually install them:
-
-bash
-pip install some_package_name  
-🚀 Deployment
-Streamlit Cloud / Hugging Face Spaces
-Push your code to GitHub
-
-Connect your repo to Streamlit Cloud or Hugging Face Spaces
 
 Set up secrets and environment variables
 
