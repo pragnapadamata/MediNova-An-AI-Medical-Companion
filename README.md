@@ -60,8 +60,49 @@ Ensure you have the following installed:
 
 ### 🚀 Installation Steps
 
-1️⃣ **Clone the Repository**
+2️⃣ Create & Activate a Virtual Environment
 
-```bash
-git clone https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion.git
-cd MediNova-An-AI-Medical-Companion
+bash
+# Create virtual environment  
+python -m venv rag-env  
+# Activate (Windows)  
+rag-env\Scripts\activate  
+# Activate (Mac/Linux)  
+source rag-env/bin/activate  
+3️⃣ Install Dependencies
+
+bash
+pip install -r requirements.txt  
+4️⃣ Set Up Secrets (if applicable) Add any API keys or credentials in a .env file. 5️⃣ Run the Application
+
+bash
+streamlit run app.py  
+🎯 Using the Features
+bash
+# Login System  
+python login.py  
+# Upload Prescription  
+Use the Streamlit UI to upload images  
+# Ask Medical Questions  
+Use the chatbot interface to query health-related topics  
+🎯 Additional Notes
+To deactivate the virtual environment, run:
+
+bash
+deactivate  
+If you face missing dependencies, manually install them:
+
+bash
+pip install some_package_name  
+🚀 Deployment
+Streamlit Cloud / Hugging Face Spaces
+Push your code to GitHub
+
+Connect your repo to Streamlit Cloud or Hugging Face Spaces
+
+Set up secrets and environment variables
+
+Deploy and share your app!
+
+📬 Contact
+For queries or contributions, reach out to Pragna Padamata at pragnasrilalithapadamata@example.com
