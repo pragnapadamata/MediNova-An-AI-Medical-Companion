@@ -17,7 +17,8 @@ MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to
 https://github.com/user-attachments/assets/medinova-homepage-screenshot
 
 ### Demo Video
-[Watch MediNova Video](assets/MediNova.mp4)
+[Watch Demo Video](assets/UploadImage.mp4)
+
 
 
 ### **Prescription Upload**
