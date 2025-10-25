@@ -12,9 +12,8 @@ MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to
 - ✅ **Streamlit UI** – Lightweight, interactive web interface
 
 ## 📸 Screenshots & Videos
-### **Home Page**
-
-https://github.com/user-attachments/assets/medinova-homepage-screenshot
+### Upload Image Demo
+https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion/blob/main/assets/UploadImage.mp4
 
 ### Demo Video
 [Watch Demo Video](assets/UploadImage.mp4)
