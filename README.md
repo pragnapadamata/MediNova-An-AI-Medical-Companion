@@ -13,10 +13,10 @@ MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to
 
 ## 📸 Screenshots & Videos
 ### Upload Image Demo
-https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion/blob/main/assets/UploadImage.mp4
+https://github.com/pragnapadamata/MediNova-An-AI-Medical-Companion/blob/main/assets/UploadImage.gif
 
 ### Demo Video
-[Watch Demo Video](assets/UploadImage.mp4)
+[Watch Demo Video](assets/UploadImage.gif)
 
 
 
