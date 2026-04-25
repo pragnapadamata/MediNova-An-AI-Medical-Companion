@@ -1,82 +1,104 @@
-# 🩺 MediNova – An AI-Powered Medical Companion
+:
 
-## 📌 Overview
-MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to extract medicine names from prescriptions and provide intelligent, context-aware answers to health-related queries. It integrates a **retrieval-augmented generation (RAG)** pipeline for accurate responses and features a clean, interactive interface for users to explore medical information.
+🩺 MediNova – An AI-Powered Medical Companion
+📌 Overview
 
-## 🚀 Features
-- ✅ **OCR-Powered Prescription Reader** – Extracts medicine names from uploaded images
-- ✅ **NLP-Based Medical Q&A** – Answers user queries using a curated medical dataset
-- ✅ **Medicine Database Search** – Retrieves drug details from structured CSV and FAISS index
-- ✅ **RAG Pipeline Integration** – Combines retrieval and generation for accurate responses
-- ✅ **Secure Login System** – Basic authentication for user access
-- ✅ **Streamlit UI** – Lightweight, interactive web interface
+MediNova is an AI-driven medical assistant that leverages OCR and NLP to extract medicine names from prescriptions and provide intelligent, context-aware answers to health-related queries. It integrates a Retrieval-Augmented Generation (RAG) pipeline to deliver accurate and reliable responses, along with a clean and interactive interface for seamless user experience.
 
-### Demo Video
-[Watch Demo Video](assets/UploadImage.gif)
+The system is designed to simulate a real-world healthcare assistant capable of processing unstructured medical data and converting it into meaningful insights.
 
-<p align="center"> <img src="interface5.png" width="60%" /> </p> <p align="center"> <img src="interface2.png" width="60%" /> </p> <p align="center"> <img src="interface3.png" width="60%" /> </p> <p align="center"> <img src="interface4.png" width="60%" /> </p> <p align="center"> <img src="interface6.png" width="60%" /> </p>
-## 🛠️ Tech Stack
-**Frontend:**
-- ✅ Streamlit – For the web-based UI
-- ✅ HTML/CSS – For layout and styling
-- ✅ Lottie.js – For animated visuals (optional)
+🚀 Features
+✅ OCR-Powered Prescription Reader – Extracts medicine names from uploaded images
+✅ NLP-Based Medical Q&A – Answers user queries using a curated medical dataset
+✅ Medicine Database Search – Retrieves drug details from structured CSV and FAISS index
+✅ RAG Pipeline Integration – Combines retrieval and generation for accurate responses
+✅ Secure Login System – Basic authentication for user access
+✅ Streamlit UI – Lightweight and interactive web interface
+🎥 Demo
 
-**Backend & Computation:**
-- ✅ Python – Core programming language
-- ✅ Pandas – For data handling
-- ✅ FAISS – For fast similarity search
-- ✅ Pickle – For serialized data storage
+👉 Demo Video:
+Watch Demo Video
 
-**AI & NLP:**
-- ✅ Tesseract OCR – For text extraction from images
-- ✅ Hugging Face Transformers – For question answering
-- ✅ Sentence Transformers – For semantic search
+🖥️ Interface Preview
+<p align="center"> <img src="interface5.png" width="60%" /> </p>
 
-**Storage & Data:**
-- ✅ CSV – Medicine database
-- ✅ FAISS Index – Vector search
-- ✅ .env – For secure API keys and environment variables
+MediNova provides a simple and user-friendly interface where users can easily upload prescriptions or ask medical questions. The system is designed to minimize complexity while maximizing usability, ensuring that even non-technical users can interact comfortably with the AI assistant.
 
-## 🔧 Setup & Installation
+<p align="center"> <img src="interface2.png" width="60%" /> </p>
 
-### 📌 Prerequisites
-Ensure you have the following installed:
-- 🐍 Python 3.8+
-- 📦 pip (Python package manager)
-- 💻 Git (optional, for cloning)
-- 📂 Virtual Environment (recommended)
+The prescription upload module allows users to submit medical images, which are processed using OCR technology. The extracted text is cleaned, structured, and passed into the NLP pipeline for further analysis, enabling accurate extraction of medicine names and related information.
 
-### 🚀 Installation Steps
+<p align="center"> <img src="interface3.png" width="60%" /> </p>
 
-2️⃣ Create & Activate a Virtual Environment
+The AI-powered Q&A system enables users to ask health-related questions in natural language. Using a Retrieval-Augmented Generation pipeline, the system fetches relevant medical context and generates intelligent, context-aware responses, improving reliability and accuracy.
 
-bash
-# Create virtual environment  
-python -m venv rag-env  
-# Activate (Windows)  
-rag-env\Scripts\activate  
-# Activate (Mac/Linux)  
-source rag-env/bin/activate  
-3️⃣ Install Dependencies
+<p align="center"> <img src="interface4.png" width="60%" /> </p>
 
-bash
-pip install -r requirements.txt  
-4️⃣ Set Up Secrets (if applicable) Add any API keys or credentials in a .env file. 5️⃣ Run the Application
+The medicine search system is powered by FAISS, enabling fast semantic search across medical datasets. This ensures quick retrieval of relevant drug information, enhancing response speed and system efficiency.
 
-bash
-streamlit run app.py  
-🎯 Using the Features
-bash
-# Login System  
-python login.py  
-# Upload Prescription  
-Use the Streamlit UI to upload images  
-# Ask Medical Questions  
-Use the chatbot interface to query health-related topics  
+<p align="center"> <img src="interface6.png" width="60%" /> </p>
 
-Set up secrets and environment variables
+Overall, MediNova delivers an end-to-end AI healthcare assistant experience by combining OCR, NLP, and RAG technologies into a unified system that is efficient, scalable, and user-friendly.
 
-Deploy and share your app!
+🛠️ Tech Stack
+🖥️ Frontend
+Streamlit – Web-based UI
+HTML/CSS – Styling and layout
+Lottie.js – Animations (optional)
+⚙️ Backend & Processing
+Python – Core logic
+Pandas – Data processing
+FAISS – Vector similarity search
+Pickle – Model/data serialization
+🧠 AI & NLP
+Tesseract OCR – Image text extraction
+Hugging Face Transformers – NLP tasks
+Sentence Transformers – Semantic embeddings
+💾 Storage
+CSV – Medical dataset
+FAISS Index – Vector database
+.env – Environment configuration
+🔧 Setup & Installation
+📌 Prerequisites
+Python 3.8+
+pip package manager
+Git (optional)
+Virtual environment (recommended)
+🚀 Installation Steps
 
+1️⃣ Create Virtual Environment
+
+python -m venv rag-env
+
+Activate (Windows)
+
+rag-env\Scripts\activate
+
+Activate (Mac/Linux)
+
+source rag-env/bin/activate
+
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Configure Environment Variables
+Create a .env file and add required API keys and credentials.
+
+4️⃣ Run Application
+
+streamlit run app.py
+🎯 Usage
+Upload prescription images through UI
+Extract medicine information using OCR
+Ask medical questions in chatbot interface
+Receive AI-generated context-aware responses
 📬 Contact
-For queries or contributions, reach out to Pragna Padamata at pragnasrilalithapadamata@gmail.com
+
+For queries or contributions, reach out to:
+Pragna Padamata
+📧 pragnasrilalithapadamata@gmail.com
+
+⭐ License
+
+This project is licensed under the MIT License.
