@@ -1,4 +1,3 @@
-:
 
 🩺 MediNova – An AI-Powered Medical Companion
 📌 Overview
