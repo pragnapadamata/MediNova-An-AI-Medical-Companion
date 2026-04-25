@@ -86,7 +86,10 @@ interface
 🖥️ Interface Preview
 <p align="center"> <img src="interface5.png" width="60%" /> </p>
 
-MediNova provides a simple and user-friendly interface where users can easily upload prescriptions or ask medical questions. The system is designed to minimize complexity while maximizing usability, ensuring that even non-technical users can interact comfortably with the AI assistant.
+MediNova provides a simple and user-friendly interface where users can either upload prescription images or ask medicine-related questions. When a medicine image is uploaded or a drug name is queried, the system returns detailed information such as symptoms, uses, composition, manufacturer details, and other relevant drug insights in a structured format.
+
+Additionally, the system also works in reverse mode—when users input symptoms, it suggests possible medicines and related treatments based on the medical dataset and AI-driven retrieval system. This dual capability makes the assistant more practical and useful for real-world healthcare guidance. The system is designed to minimize complexity while maximizing usability, ensuring that even non-technical users can interact easily and get meaningful medical assistance.
+
 
 <p align="center"> <img src="interface2.png" width="60%" /> </p>
 
