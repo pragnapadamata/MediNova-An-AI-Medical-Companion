@@ -1,8 +1,4 @@
-This is a solid project overview! You've built a comprehensive pipeline by combining OCR with RAG—a very practical use case for modern AI.
 
-To make this README truly "pop" on GitHub or in a portfolio, I’ve refined the formatting to be cleaner, more professional, and highly scannable. 
-
----
 
 # 🩺 MediNova: Your AI-Powered Medical Companion
 
