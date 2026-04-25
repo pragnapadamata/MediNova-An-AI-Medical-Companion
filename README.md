@@ -14,7 +14,7 @@ MediNova is an **AI-driven medical assistant** that leverages **OCR and NLP** to
 ### Demo Video
 [Watch Demo Video](assets/UploadImage.gif)
 
-<p align="center"> <img src="interface1.png" width="60%" /> </p> <p align="center"> <img src="interface2.png" width="60%" /> </p> <p align="center"> <img src="interface3.png" width="60%" /> </p> <p align="center"> <img src="interface4.png" width="60%" /> </p>
+<p align="center"> <img src="interface5.png" width="60%" /> </p> <p align="center"> <img src="interface2.png" width="60%" /> </p> <p align="center"> <img src="interface3.png" width="60%" /> </p> <p align="center"> <img src="interface4.png" width="60%" /> </p> <p align="center"> <img src="interface6.png" width="60%" /> </p>
 ## 🛠️ Tech Stack
 **Frontend:**
 - ✅ Streamlit – For the web-based UI
