@@ -81,7 +81,7 @@ interface
 🎥 Demo
 
 👉 Demo Video:
-Watch Demo Video
+[Watch Demo Video](assets/UploadImage.gif)
 
 🖥️ Interface Preview
 <p align="center"> <img src="interface5.png" width="60%" /> </p>
