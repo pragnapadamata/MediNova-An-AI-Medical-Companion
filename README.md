@@ -77,15 +77,32 @@ streamlit run app.py
 
 ---
 
-### 🎥 Project Previews
+interface
+🎥 Demo
 
-> **Note:** The interface is designed to minimize complexity, ensuring accessibility for non-technical users.
+👉 Demo Video:
+Watch Demo Video
 
-| Prescription Extraction | AI Chatbot Interface |
-| :--- | :--- |
-| ![Interface 2](interface2.png) | ![Interface 3](interface3.png) |
-| *Processing OCR data* | *Context-aware health Q&A* |
+🖥️ Interface Preview
+<p align="center"> <img src="interface5.png" width="60%" /> </p>
 
+MediNova provides a simple and user-friendly interface where users can easily upload prescriptions or ask medical questions. The system is designed to minimize complexity while maximizing usability, ensuring that even non-technical users can interact comfortably with the AI assistant.
+
+<p align="center"> <img src="interface2.png" width="60%" /> </p>
+
+The prescription upload module allows users to submit medical images, which are processed using OCR technology. The extracted text is cleaned, structured, and passed into the NLP pipeline for further analysis, enabling accurate extraction of medicine names and related information.
+
+<p align="center"> <img src="interface3.png" width="60%" /> </p>
+
+The AI-powered Q&A system enables users to ask health-related questions in natural language. Using a Retrieval-Augmented Generation pipeline, the system fetches relevant medical context and generates intelligent, context-aware responses, improving reliability and accuracy.
+
+<p align="center"> <img src="interface4.png" width="60%" /> </p>
+
+The medicine search system is powered by FAISS, enabling fast semantic search across medical datasets. This ensures quick retrieval of relevant drug information, enhancing response speed and system efficiency.
+
+<p align="center"> <img src="interface6.png" width="60%" /> </p>
+
+Overall, MediNova delivers an end-to-end AI healthcare assistant experience by combining OCR, NLP, and RAG technologies into a unified system that is efficient, scalable, and user-friendly.
 ---
 
 ### 📬 Contact & Support
